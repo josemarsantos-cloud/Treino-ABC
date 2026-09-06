@@ -28,7 +28,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-
+    }
 
 dependencies {
     implementation("androidx.activity:activity-ktx:1.10.1")
