@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
     private var healthClient: HealthConnectClient? = null
     private lateinit var permissionLauncher: ActivityResultLauncher<Set<String>>
 
-    private val providerPackage = HealthConnectClient.DEFAULT_PROVIDER_PACKAGE_NAME
+    private val providerPackage = "com.google.android.apps.healthdata"
     private val exerciseWritePermission =
         HealthPermission.getWritePermission(ExerciseSessionRecord::class)
 
